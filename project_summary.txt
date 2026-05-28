@@ -1,0 +1,325 @@
+# Micro-Level Project Summary & Technical Sequence: Geospatial Broomrape (Aleket) Infestation Pipeline
+
+This document provides a highly detailed, sequential breakdown of the code blocks, operations, functions, variables, and geospatial methods executed in this Data Science and Geospatial project. The primary objective is to analyze Broomrape ("Aleket") infestation in agricultural fields using multi-spectral high-resolution satellite imagery (Planet API) and spatial ground-truth datasets.
+
+---
+
+## Scientific Core: The Underlying Idea & Rationale of the Project
+
+The core scientific framework of this pipeline is built on combining remote sensing physiology (spectral signatures) and spatial structures (textural metrics) to retrospectively monitor and predict the impact of parasitic weed infestation (*Orobanche* spp., commonly known as Broomrape or **Aleket**) on host crops over time.
+
+### 1. The Physiological Rationale (Spectral Indices)
+Broomrape is an obligate root parasite lacking functional chlorophyll. It attaches directly to host roots and aggressively draws water, minerals, and carbon resources. The physiological impact manifests in the host crop *long before* the parasitic flowers visibly breach the soil.
+* **NDVI (Normalized Difference Vegetation Index):** Monitors global canopy density and overall photosynthetic vigor. As the host crop's vascular system collapses due to resource extraction, NDVI declines.
+* **GNDVI (Green NDVI):** Integrates the green spectral band, making it far more sensitive to subtle chlorophyll concentration changes. This acts as a proxy for early-stage leaf yellowing (chlorosis) when red bands are saturated.
+* **NDRE (Normalized Difference Red Edge):** Red-edge wavelengths are highly sensitive to initial vegetation stress and canopy chlorophyll density, penetrating deeper into the crop canopy than NDVI to capture early physiological breakdown.
+* **Green/Red Ratio:** Tracks chlorotic shifts directly by comparing green reflectance (healthy leaf pigmentation) to red reflectance (chlorophyll degradation).
+
+### 2. The Textural & Structural Rationale (GLCM)
+Parasitic root drain stunts plant development, causes leaf rolling, wilting, and uneven plant growth. This alters the crop's spatial geometry and canopy texture, transforming a highly structured agricultural field into a highly heterogeneous, patchy, and chaotic system.
+* **Homogeneity:** Captures spatial uniformity. Healthy fields have consistent grid/row textures (high homogeneity). Localized parasitic collapse disrupts this structure (homogeneity declines).
+* **Entropy:** Measures structural chaos/randomness. As the canopy breaks down unevenly, spatial randomness increases (entropy rises).
+* **ASM (Angular Second Moment):** Quantifies textural order. Infected, patchy fields show high local variance, leading to a drop in ASM.
+
+### 3. The Temporal Rationale (The 56-Day Window & Spaghetti / Spaghetti LOESS Curves)
+A single satellite snapshot cannot robustly distinguish crop stress from soil variance or natural anomalies. By pulling images retrospectively over a **56-day observation window** leading to the sampling date, the pipeline constructs a dynamic timeline. Spaghetti plots overlaid with LOESS-smoothed regression curves capture the speed and rate (slopes) of physical-physiological collapse. Healthy plants maintain high, stable vigor curves, while infested cohorts display accelerated, monotonic decay trajectories.
+
+### 4. The Spatial Rationale (Edge Proximity Buffers)
+Agricultural infestations frequently spread from field boundaries, introduced by vehicles, personnel, animals, or wind. By creating metric-based inward buffers (e.g., **0.5m** inward for Edigan, **5.0m** inward for Gonen) using accurate UTM projections, the pipeline isolates **Core vs. Edge** populations. This lets us statistically determine if the border zones act as initial seedbeds or suffer from accelerated vegetative degradation due to edge effects.
+
+---
+
+## 1. Complete Cell-by-Cell Notebook Execution Sequence
+
+### [CELL 00 - 01] Environment Setup & Initialization
+* **Description:** Initializes the virtual execution environment, installs required packages silently, and centralizes all module imports to ensure modular design and prevent runtime dependencies.
+* **Libraries Imported:**
+  - *Data Manipulation:* `pandas`, `numpy`
+  - *Geospatial Vector Engine:* `geopandas` (as `gpd`), `fiona`, `pyproj`, `shapely.geometry` (`Point`, `LineString`, `box`), `shapely.ops` (`unary_union`, `shape`), `shapely.geometry.mapping`
+  - *Image Processing & Spatial Rasters:* `rasterio`, `rasterio.windows.Window`
+  - *Mathematical, Statistical & Texture analysis:* `scipy.stats` (`mannwhitneyu`, `linregress`), `scipy.sparse.csgraph.connected_components`, `scipy.spatial` (`cKDTree`, `distance.pdist`, `distance.squareform`), `skimage.feature` (`graycomatrix`, `graycoprops`)
+  - *Visualizations:* `matplotlib.pyplot` (as `plt`), `seaborn` (as `sns`), `matplotlib.lines.Line2D`
+  - *System & APIs:* `os`, `glob`, `re`, `requests`, `shutil`, `time`, `datetime`, `timedelta`, `dotenv.load_dotenv`, `warnings`
+* **Operations:** Executes `%pip install python-dotenv -q`, calls `load_dotenv()`, and filters deprecation warnings to guarantee a clean command-line output.
+
+### [CELL 02 - 03] Master Layer & Attribute Table Extraction
+* **Description:** Extracts raw spatial layers and their tabular attributes from a master geographic source.
+* **Constants & Paths:**
+  - `SOURCE_GPKG = "qgis/all_layers.gpkg"`
+  - `LAYERS_DIR = "extracted_layers"`
+  - `TABLES_DIR = "extracted_tables"`
+* **Logic/Functions:**
+  - Iterates through every sub-layer in the master GeoPackage.
+  - Automatically splits the layers into:
+    1. **Strict Spatial Vectors:** Saved as individual `.gpkg` layers in the `extracted_layers/` directory.
+    2. **Tabular Attribute Tables:** Drops geometry columns and exports clean `.csv` tables to the `extracted_tables/` directory.
+
+### [CELL 04 - 05] Attribute Standardization & Data Cleaning
+* **Description:** Standardizes columns across all extracted tables to uniform targets, matching typos, mapping null values, and scaling severe classes.
+* **Paths:**
+  - `INPUT_DIR = "extracted_tables"`
+  - `OUTPUT_DIR = "clean_tables"`
+* **Operations:**
+  - Standardizes the target variable column spelling to `Aleket_cnt` by dynamically matching spelling variations (e.g., `"aleket"`, `"numflowers"`, `"attrib_1"`, `"severity"`).
+  - Handles NaN values (converts them to `0` or numeric defaults) and enforces strict integer types on severity.
+  - **2025 Normalization:** Implements custom vectorized scaling logic specifically for 2025 monitor datasets (`Monitor_GDD714` and `Monitor_GDD562`) to normalize irregular values on a `1-100` scale into standard `0` (Healthy), `1` (Low), `2` (Medium), and `3` (Severe) categorical indices.
+
+### [CELL 06 - 07] Definition of Sampling Dates
+* **Description:** Establishes a manual dictionary mapping geographic fields to their exact ground-truth field sampling date.
+* **Variable:** `sample_dates`
+* **Key Mappings:**
+  - `"Broomrape_Sampling_Gonen_2025-06-30": "30.06.25"`
+  - `"Monitor_GDD714_Broomrape_2025-06-05": "05.06.25"`
+  - `"Monitor_GDD562_Broomrape_2025-05-18": "18.05.25"`
+  - `"Boundary_Fields_Baseline_2011 — Yagur_buki": "21.07.11"`
+  - (Includes full historical coverage for baseline years 2011, 2012, 2018, and 2020).
+
+### [CELL 08 - 09] Sample Date Validation
+* **Description:** Performs a strict validation check to verify that all datasets in `clean_tables/` have corresponding temporal sampling anchors.
+* **Logic:** Matches filenames against the `sample_dates` dictionary keys. Prints high-contrast console warnings for any unmatched files, mitigating downstream API request failures.
+
+### [CELL 10 - 11] Boolean Temporal Coverage (Planet Quick-Search)
+* **Description:** Queries the Planet Labs Quick-Search API to verify whether imagery is available.
+* **Endpoints & Paths:**
+  - `SEARCH_URL = "https://api.planet.com/data/v1/quick-search"`
+  - `CLEAN_TABLES_DIR = "clean_tables"`, `EXTRACTED_LAYERS_DIR = "extracted_layers"`
+  - `OUTPUT_DIR = "coverage_matrices"`
+* **Logic/Functions:**
+  - `def generate_boolean_coverage()`: Loops over historical fields, extracts bounding geometries, and projects to WGS84 coordinates.
+  - Submits a search payload filtering for `PSScene` imagery (4-band or 8-band) with `<10%` cloud cover within a **56-day observation window** leading up to the target sampling date.
+  - Groups results into **8 distinct 7-day temporal bins** and saves a Boolean presence/absence coverage spreadsheet in `coverage_matrices/`.
+
+### [CELL 12 - 13] High-Resolution Temporal Coverage Generation
+* **Description:** Extends the quick-search queries to retrieve detailed scene lists.
+* **Paths:** `OUTPUT_DIR = "coverage_matrices_dates"`
+* **Logic/Functions:**
+  - `def generate_temporal_coverage()`: Submits quick-search queries but records the **exact acquisition timestamps** of all available orthotiles.
+  - Outputs chronological metadata tables to `coverage_matrices_dates/` mapping available high-resolution scenes.
+
+### [CELL 14 - 15] Planet API Ordering Pipeline (Historical Fields)
+* **Description:** Programmatically places high-resolution satellite imagery orders with Planet Labs.
+* **Endpoints & Variables:**
+  - `ORDERS_URL = "https://api.planet.com/compute/ops/orders/v2"`
+  - `historical_fields`: Filters `sample_dates` for fields with sampling years prior to 2013 (historical baselines).
+* **Logic/Functions:**
+  - `def place_global_historical_order()`: Bundles field geometries into unified geographic bounding boxes.
+  - Constructs order requests for `PSScene` asset type, applying standard `analytic_sr_udm2` tools (surface reflectance multi-spectral bands with cloud masks).
+  - Posts JSON payloads to the Orders API to initiate raw image processing at Planet.
+
+### [CELL 16 - 17] Satellite Imagery Download (Historical Order)
+* **Description:** Polls, validates, and streams prepared multi-spectral imagery.
+* **Variables & Paths:**
+  - `ORDER_ID = "c6b43940-9938-4d97-b9c6-481602703429"` (Historical Order ID)
+  - `DOWNLOAD_DIR = "data/raw_chips"`
+* **Logic/Functions:**
+  - `def download_planet_order()`: Polls the `ORDERS_URL` in a loop.
+  - When status turns to `"success"`, parses file results and streams multi-spectral orthotiles (`.tif` files) to the local disk.
+
+### [CELL 18 - 19] Pixel-Level Feature Extraction & Long-Format Construction (Historical)
+* **Description:** The core feature engineering engine. Extracts multi-spectral and textural features.
+* **Paths:**
+  - Inputs: `data/raw_chips/`, `clean_tables/`, `extracted_layers/`
+  - Output: `field_temporal_datasets_long/`
+* **Logic & Feature Engineering:**
+  - `get_valid_chips_for_field()`: Filters raw chips overlapping field polygons and falling within the 56-day observation window before sampling.
+  - `extract_features_at_point()`: Opens each `.tif` multi-spectral file with `rasterio` context managers to prevent memory leaks. Translates point lat/lon to exact pixel coordinates.
+    - **Spectral Indices Computed:**
+      - **NDVI** (Normalized Difference Vegetation Index) = `(NIR - Red) / (NIR + Red)`
+      - **GNDVI** (Green NDVI) = `(NIR - Green) / (NIR + Green)`
+      - **NDRE** (Normalized Difference Red Edge) = `(NIR - RedEdge) / (NIR + RedEdge)`
+      - **Green/Red Ratio** = `Green / Red`
+    - **GLCM Spatial Texture Features:** Crops a localized 5x5 window around each coordinate, scales data to 8-bit integers, and applies `graycomatrix` (1-pixel distance, angles `[0, pi/4, pi/2, 3*pi/4]`) to compute:
+      - **Entropy** (Structural chaos/texture irregularity)
+      - **Homogeneity** (Structural uniformity)
+      - **ASM** (Angular Second Moment / Uniformity)
+  - `build_long_format_datasets()`: Combines spectral and textural lists into flattened long-format `.csv` tables mapping point-level temporal trajectories.
+
+### [CELL 20 - 21] Spatial Visualization: Ground Truth Infestation
+* **Description:** Generates static point maps to confirm logical spatial clustering of infestation.
+* **Logic/Functions:**
+  - `generate_single_infestation_map(csv_path, output_dir="visualizations_infestation")`: Visualizes ground-truth points as coordinates colored by categorical Aleket severity classes.
+
+### [CELL 22 - 23] Temporal NDVI Trajectory Analysis
+* **Description:** Visualizes point-level progression of physiological vigor.
+* **Logic/Functions:**
+  - `generate_temporal_trajectory(csv_path, output_dir="ndvi_field_trajectory")`: Groups point trajectories by terminal severity classes and plots average NDVI trajectories across the 56-day observation window.
+
+### [CELL 24 - 25] Temporal Texture Dynamics (Green/Red Ratio)
+* **Description:** Renders Green/Red Ratio trajectories to track physiological chlorosis shifts.
+* **Logic/Functions:**
+  - `generate_temporal_trajectory_gr(csv_path, output_dir="gr_ratio_field_trajectory")`: Tracks the progression of the Green/Red ratio across the 56-day window grouped by infestation classes.
+
+### [CELL 26 - 27] Temporal Texture Dynamics (Homogeneity)
+* **Description:** Visualizes structural crop uniformity progression.
+* **Logic/Functions:**
+  - `generate_temporal_trajectory_homo(csv_path, output_dir="homo_field_trajectory")`: Generates individual plots tracking the decline in spatial GLCM Homogeneity per infestation class.
+
+### [CELL 28 - 29] Global Temporal Slopes & Full Correlation Matrix
+* **Description:** Aggregates trajectories, calculates slopes, and builds correlation matrices.
+* **Paths:** `OUTPUT_DIR = "visualizations_statistics"`
+* **Logic/Functions:**
+  - `build_full_correlation_matrix()`: Fits a linear regression (`linregress`) over each point's temporal features to calculate a mathematical trajectory slope (rate of vegetative decay).
+  - Merges slopes across all fields and calculates master **Spearman Rank Correlation Coefficients** to correlate rates of change with final infestation severity levels.
+  - Outputs a correlation matrix heatmap (`global_full_correlation_matrix.png`) and a slopes CSV (`global_temporal_slopes.csv`).
+
+### [CELL 30 - 31] Time-Binned Correlation & Delta Analytics
+* **Description:** Discretizes the 56-day observation timeline into three agronomic phases.
+* **Binned Phases:**
+  - **Early Stage:** `56 to 37` days before sampling.
+  - **Mid Stage:** `36 to 18` days before sampling.
+  - **Late Stage:** `17 to 0` days before sampling.
+* **Logic/Functions:**
+  - `build_binned_correlation_matrix()`: Computes average indices in each phase.
+  - Calculates **Delta Collapse Metrics** (e.g., `Late_NDVI - Early_NDVI`).
+  - Correlates binned averages and deltas globally against Broomrape counts to generate a binned correlation heatmap (`global_binned_correlation_matrix.png`) and a binned CSV (`global_binned_features.csv`).
+
+### [CELL 32 - 33] Multivariate Signature Migration
+* **Description:** Creates multi-dimensional faceted scatter subplots.
+* **Paths:** `OUTPUT_DIR = "visualizations_scatter_signatures"`
+* **Logic/Functions:**
+  - `generate_multivariate_scatter(csv_path)`: Visualizes the simultaneous state of crop health (NDVI on X-axis) and structural chaos (GLCM Entropy on Y-axis) across chronological facets (e.g., `50`, `30`, `10`, and `0` days before sampling). Reveals how severity classes diverge and migrate over time.
+
+### [CELL 34 - 36] Biochemical Signature Scatter Plots
+* **Description:** Tracks pigment degradation across temporal facets.
+* **Paths:** `OUTPUT_DIR = "visualizations_scatter_biochemical"`
+* **Logic/Functions:**
+  - `generate_biochemical_scatter(csv_path)`: Faceted subplots mapping Green/Red Ratio (chlorosis shift on X) vs. NDRE (early stress/chlorophyll on Y) leading up to sampling.
+
+### [CELL 37 - 38] Grid-Based Temporal Trajectory
+* **Description:** Aggregates localized point attributes into spatial grid quadrats.
+* **Paths:** `OUTPUT_DIR = "visualizations_grid_trajectory"`
+* **Logic/Functions:**
+  - `generate_grid_temporal_trajectory(csv_path)`: Projects point coordinates into a metric system (UTM Zone 36N, `EPSG:32636`).
+  - Overlays a **30m x 30m grid**, aggregates point attributes to patch-level severity categories, and plots temporal trajectories of the grid cells.
+
+### [CELL 39 - 40] Temporal Buffer Analysis
+* **Description:** Examines edge effects on temporal crop degradation.
+* **Paths:** `OUTPUT_DIR = "visualizations_temporal_buffer"`
+* **Logic/Functions:**
+  - `generate_temporal_buffer_analysis(csv_path)`: Uses WGS84 to UTM Zone 36N projection.
+  - Computes the shortest distance from each ground-truth point to the outer field boundary.
+  - Renders scatter plots with regression overlays correlating boundary proximity with GNDVI/NDRE decay rates.
+
+### [CELL 41 - 42] Statistical Comparison: Green/Red Ratio & ASM
+* **Description:** Formulates box plots and performs non-parametric significance testing.
+* **Paths:** `OUTPUT_DIR = "visualizations_aleket_comparison"`
+* **Logic/Functions:**
+  - `generate_aleket_boxplot(csv_path)`: Compares degradation slopes of Green/Red Ratio and GLCM ASM between healthy (0) and infested (>0) regions.
+  - Computes **Mann-Whitney U** p-values to validate whether degradation rates differ significantly.
+
+### [CELL 43 - 44] Statistical Comparison: NDVI & Homogeneity
+* **Description:** Statistical comparison of physiological and structural trait decay.
+* **Paths:** `OUTPUT_DIR = "visualizations_aleket_comparison_2"`
+* **Logic/Functions:**
+  - `generate_aleket_boxplot_ndvi_homo(csv_path)`: Compares NDVI and GLCM Homogeneity decay slopes for healthy vs. infested groups, validated via the Mann-Whitney U test.
+
+### [CELL 45 - 46] Global Spaghetti Trends: NDVI & Entropy
+* **Description:** Aggregates spatial data across all monitored fields.
+* **Paths:** `OUTPUT_DIR = "visualizations_global_trends"`
+* **Logic/Functions:**
+  - `generate_global_spaghetti_plot()`: Renders individual field trajectories as faint spaghetti lines, overlaid with a robust **LOESS-smoothed global trend line** (`statsmodels` lowess) to contrast healthy vs. infected crop populations for NDVI and GLCM Entropy.
+
+### [CELL 47 - 48] Global Spaghetti Trends: Green/Red Ratio & Homogeneity
+* **Description:** Renders aggregated spaghetti trends for biochemical shift and structural uniformity.
+* **Logic/Functions:**
+  - `generate_global_spaghetti_gr_homo()`: Plots global spaghetti trajectories and LOESS-smoothed trends for Green/Red Ratio and GLCM Homogeneity.
+
+---
+
+## 2. 2025 Satellite Details & Execution Pipeline
+
+The notebook contains a completely isolated, high-resolution execution branch specifically dedicated to recent **2025 datasets**. Below are the micro-level system configuration and satellite specs for this branch:
+
+### [CELL 49 - 50] Planet API Quick-Search & Ordering (2025)
+* **Description:** Credential setup, search payload construction, and Order placing for the 2025 fields.
+* **Credentials:** Configures `PLANET_API_KEY` from `.env`.
+* **Logic/Functions:**
+  - `place_global_2025_order()`: Filters `sample_dates` to isolate active 2025 fields.
+  - Bounding box polygons are computed from 2025 GPKG vector files in `extracted_layers/`.
+  - Submits search payloads to Planet's Quick-Search endpoint targeting `PSScene` orthotiles with cloud cover `<10%` within a 56-day observation window leading up to the 2025 sampling dates.
+  - Places a synchronized Planet Order (Orders API v2) for the target orthotiles.
+
+### [CELL 51 - 52] Planet API Order Download (2025)
+* **Description:** Monitors and streams multi-spectral assets for the active 2025 execution.
+* **Variables & Paths:**
+  - **2025 Order ID:** `28274c24-9597-4318-939c-b507c366ae1b`
+  - **Download Directory:** `data/raw_chips_2025`
+* **Logic/Functions:**
+  - `download_planet_order()`: Connects to Planet's Orders API.
+  - Polling loop checks the order status. Once status is `"success"`, streams raw multi-spectral orthotile `.tif` files directly to `data/raw_chips_2025/`.
+
+### [CELL 53 - 54] Feature Extraction & Long-Format construction (2025)
+* **Description:** Tailors pixel-level spectral/textural feature extraction to the 2025 data.
+* **Paths:**
+  - Raw chips input: `data/raw_chips_2025`
+  - Long outputs: `field_temporal_datasets_long_2025/`
+* **Logic/Functions:**
+  - `get_valid_chips_for_field()`: Searches `data/raw_chips_2025` for files overlapping 2025 field boundaries.
+  - `extract_features_at_point()`: Opens Multi-spectral 2025 Planet orthotiles. Computes spectral indices (NDVI, GNDVI, NDRE, Green/Red Ratio) and GLCM textural matrices (Entropy, Homogeneity, ASM).
+  - `build_long_format_datasets()`: Combines points from 2025 tables (`clean_tables/`) and compiles long-format temporal CSVs in `field_temporal_datasets_long_2025/`.
+
+### [CELL 55 - 56] Global 2025 Spaghetti Trends: NDVI
+* **Description:** Aggregates and plots NDVI trajectory trends across the 2025 fields.
+* **Logic/Functions:**
+  - `generate_global_spaghetti_ndvi_2025()`: Aggregates `field_temporal_datasets_long_2025/` files. Renders spaghetti plots with LOESS-smoothed trend lines to `visualizations_global_trends_2025/global_spaghetti_loess_ndvi_2025.png`.
+
+### [CELL 57 - 58] Global 2025 Spaghetti Trends: NDRE
+* **Description:** Visualizes NDRE spaghetti trends across the 2025 fields.
+* **Logic/Functions:**
+  - `generate_global_spaghetti_ndre_2025()`: Aggregates 2025 datasets to plot global spaghetti/LOESS trajectories to `visualizations_global_trends_2025/global_spaghetti_loess_ndre_2025.png`.
+
+### [CELL 59 - 60] Global 2025 Spaghetti Trends: GLCM Homogeneity
+* **Description:** Tracks spatial structural uniformity trends across 2025 fields.
+* **Logic/Functions:**
+  - `generate_global_spaghetti_homo_2025()`: Generates global spaghetti plots and LOESS trend lines for GLCM Homogeneity in `visualizations_global_trends_2025/global_spaghetti_loess_homo_2025.png`.
+
+### [CELL 61 - 62] Global 2025 Spaghetti Trends: GNDVI
+* **Description:** Tracks structural chlorophyll and photosynthetic changes for the 2025 fields.
+* **Logic/Functions:**
+  - `generate_global_spaghetti_gndvi_2025()`: Plots global GNDVI trajectories and LOESS trends to `visualizations_global_trends_2025/global_spaghetti_loess_gndvi_2025.png`.
+
+### [CELL 63 - 64] Individual Field Scatter Plots: 2025 NDVI
+* **Description:** Plots detailed point-level NDVI distributions for 2025 fields.
+* **Logic/Functions:**
+  - `generate_individual_scatter_plots()`: Renders chronological NDVI scatter plots for points in each 2025 field, colored by severity, exporting to `ndvi_scatter_2025/`.
+
+### [CELL 65 - 66] Individual Field Scatter Plots: 2025 Green/Red Ratio
+* **Description:** Plots point-level Green/Red Ratio distributions for 2025 fields.
+* **Logic/Functions:**
+  - `generate_individual_scatter_plots_gr()`: Renders Green/Red Ratio scatter plots for 2025 fields to `visualizations_scatter_gr_ratio_2025/`.
+
+### [CELL 67 - 68] Individual Field Scatter Plots: 2025 GLCM Homogeneity
+* **Description:** Plots structural uniformity scatter distributions for 2025 fields.
+* **Logic/Functions:**
+  - `generate_individual_scatter_plots_homo()`: Renders GLCM Homogeneity scatter plots for 2025 fields to `visualizations_scatter_homo_2025/`.
+
+### [CELL 69 - 70] Core vs. Edge Buffer Analysis (2025 Fields)
+* **Description:** Runs spatial zoning, boundary buffering, and comparative temporal analysis on active 2025 fields.
+* **Target 2025 Fields, Paths, & Buffer Specs:**
+  1. **Edigan Field (2025):**
+     - Spatial Boundary Vector: `gadash_edigan_25_poly.gpkg`
+     - Cleaned Dataset Path: `field_temporal_datasets_long_2025/Monitor_GDD714_Broomrape_2025-06-05_long_features.csv`
+     - Sampling Date: `2025-06-05`
+     - Inward Boundary Buffer Margin: **0.5 Meters**
+  2. **Gonen Field (2025):**
+     - Spatial Boundary Vector: `gonen_kav_2_poly.gpkg`
+     - Cleaned Dataset Path: `field_temporal_datasets_long_2025/Broomrape_Sampling_Gonen_2025-06-30_long_features.csv`
+     - Sampling Date: `2025-06-30`
+     - Inward Boundary Buffer Margin: **5.0 Meters**
+* **Logic & Execution Steps:**
+  - `process_field_zones()`: Loads the field boundary and projects vector geometry from EPSG:4326 to a metric UTM system (Zone 36N, `EPSG:32636`).
+  - Computes the inward buffer boundary based on the metric margins (**0.5m** for Edigan, **5.0m** for Gonen).
+  - Classifies points into:
+    - **`Core`**: Points falling strictly inside the buffered geometry.
+    - **`Edge`**: Points falling outside the buffer (border margin or exterior GPS points).
+  - Merges zones with longitudinal dataset features.
+  - **Renders Outputs:**
+    1. **Spatial Boundary Maps:** Displays the field polygon boundary, a **dotted line** of the inward buffer, and ground truth points marked by zone classification (`Core` vs `Edge`) and colored by their terminal Aleket severity class.
+    2. **Comparative Temporal Trajectory Charts:** Plots a comparative line chart of NDVI trends over the 56-day observation window, contrasting the Core vs. Edge populations to study spatial infestation gradients.
+
+---
+
+## 3. Data Science & Geospatial Best Practices Enforced
+* **NumPy/Pandas Vectorization First:** Avoids slow Python iterative loops by performing column-wise vectorized scaling and feature manipulation on large spatial data frames.
+* **Safe Memory Management:** Utilizes Python `with rasterio.open(...) as src` context managers, ensuring that multi-gigabyte satellite orthotiles are closed immediately after pixel-level extractions.
+* **Exact Projections:** Avoids manual geometric calculation errors in angular coordinates by transforming all geometries to localized UTM (EPSG:32636, Zone 36N) before calculating distance buffers or overlays.

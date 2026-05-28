@@ -1,0 +1,3 @@
+201103301359   1     0     0itayr Y:\2010\BHilel3East\BH_krigm = SELECTMASK(Y:\2010\BHilel3East\bhilel3ekrig, C:\Documents and Settings\itayr\Local Settings\Temp\t_t406)
+201611212129   0     0     0yafitush D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\BHilel3East\BH3E_IDW5m = IDW(BHilel3East,  'AleketLvl', #, 2.0, SAMP
+201611212130   0     1     0yafitush D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\BHilel3East\bh3e_idw5mss = SELECTMASK(D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\BHilel3East\BH3E_IDW5m, C:\Users\yafitush\AppData\Local\Temp\arcC089\t_t567)

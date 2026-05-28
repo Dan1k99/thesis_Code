@@ -1,0 +1,16 @@
+<PAMDataset>
+  <SRS>PROJCS["Israel_TM_Grid",GEOGCS["GCS_Israel",DATUM["Israel",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",219529.584],PARAMETER["False_Northing",626907.39],PARAMETER["Central_Meridian",35.20451694444445],PARAMETER["Scale_Factor",1.0000067],PARAMETER["Latitude_Of_Origin",31.73439361111111],UNIT["Meter",1.0]]</SRS>
+  <PAMRasterBand band="1">
+    <Description>ykishidw5mss</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.0002446050057187676</HistMin>
+        <HistMax>3</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>9|12|10|14|17|18|23|10|17|22|13|12|14|18|14|14|10|11|11|12|9|8|15|9|11|14|11|10|3|7|7|11|9|7|9|5|8|6|9|10|6|9|9|6|8|6|12|16|9|7|9|8|15|8|18|10|8|16|14|9|8|10|12|11|12|28|13|17|17|14|18|22|18|14|28|29|28|31|20|35|43|67|77|86|651|90|129|101|80|46|60|48|38|32|32|33|25|32|24|22|26|19|23|13|23|14|8|18|14|15|15|14|8|16|22|13|13|9|15|14|16|16|17|16|13|9|12|7|10|12|5|10|18|14|6|14|11|13|13|13|21|7|16|14|9|12|9|21|7|18|13|14|19|15|13|16|13|19|27|26|26|21|14|16|25|19|21|19|28|28|22|19|16|13|13|12|12|12|16|6|9|10|6|6|5|9|10|6|6|4|6|8|4|7|8|4|7|6|6|4|3|6|5|5|1|5|3|3|6|6|8|5|1|4|8|7|8|4|4|3|10|5|2|2|7|4|9|10|3|6|6|4|6|5|13|9|9|19|16|16|18|11|16|25|22|21|32|31|34|35|32|40|33|37|19|52</HistCounts>
+      </HistItem>
+    </Histograms>
+  </PAMRasterBand>
+</PAMDataset>

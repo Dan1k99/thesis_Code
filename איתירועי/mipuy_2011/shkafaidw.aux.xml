@@ -1,0 +1,6 @@
+<PAMDataset>
+  <SRS>PROJCS[&quot;Israel_TM_Grid&quot;,GEOGCS[&quot;GCS_Israel&quot;,DATUM[&quot;Israel&quot;,SPHEROID[&quot;GRS_1980&quot;,6378137.0,298.257222101]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;False_Easting&quot;,219529.584],PARAMETER[&quot;False_Northing&quot;,626907.39],PARAMETER[&quot;Central_Meridian&quot;,35.20451694444445],PARAMETER[&quot;Scale_Factor&quot;,1.0000067],PARAMETER[&quot;Latitude_Of_Origin&quot;,31.73439361111111],UNIT[&quot;Meter&quot;,1.0]]</SRS>
+  <PAMRasterBand band="1">
+    <Description>shkafaidw</Description>
+  </PAMRasterBand>
+</PAMDataset>

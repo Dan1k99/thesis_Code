@@ -1,0 +1,3 @@
+201105271502   0     0     0itayr Z:\EDEN_2011\eden2011idw = IDW(EDEN_2011
+201105271513   1     0     0itayr Z:\EDEN_2011\eden2011idw2 = IDW(Eden_Out7,
+201105271525   1     0     0itayr Z:\EDEN_2011\bakya_idw = IDW(BAKYA2,  '

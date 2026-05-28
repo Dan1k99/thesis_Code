@@ -1,0 +1,3 @@
+201112281544   1     0     0itayr F:\on_key_2010\YifatPlotVav\yif_v_krig1_c = SELECTMASK(F:\on_key_2010\YifatPlotVav\Yif_V_krig1, C:\Documents and Settings\itayr\Local Settings\Temp\t_t7231)
+201112281556   0     0     0itayr F:\on_key_2010\YifatPlotVav\yif_v_krig3_c = SELECTMASK(F:\on_key_2010\YifatPlotVav\yif_v_krig3, C:\Documents and Settings\itayr\Local Settings\Temp\t_t7236)
+201112281606   0     0     0itayr F:\on_key_2010\YifatPlotVav\yif_Vkrig70_c = SELECTMASK(F:\on_key_2010\YifatPlotVav\yif_v_krig70, C:\Documents and Settings\itayr\Local Settings\Temp\t_t7241)

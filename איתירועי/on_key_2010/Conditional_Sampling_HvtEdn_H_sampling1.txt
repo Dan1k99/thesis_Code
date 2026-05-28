@@ -1,0 +1,13 @@
+Conditional Sampling Point Generation Tool
+Layer Information
+
+Layer: HvtEdn_H_sampling1
+Unique ID field: AleketLvl
+Sampling method: attribute field based (SamplProp)
+Domain of availability: constant radius (80)
+Sampling form: random
+Set of input data: all points used
+Processing...
+Number of input points processed: 270
+Number of output points generated: 1796
+Processing completed successfully

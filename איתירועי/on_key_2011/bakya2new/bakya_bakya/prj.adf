@@ -1,0 +1,13 @@
+Projection    TRANSVERSE
+Datum         AI_ISRAEL
+Spheroid      GRS80
+Units         METERS
+Zunits        NO
+Xshift        0.0
+Yshift        0.0
+Parameters    
+1.0000067 /* scale factor at central meridian
+  35 12 16.261 /* longitude of central meridian
+  31 44  3.817 /* latitude of origin
+219529.584 /* false easting (meters)
+626907.39 /* false northing (meters)

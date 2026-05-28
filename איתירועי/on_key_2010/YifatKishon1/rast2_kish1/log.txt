@@ -1,0 +1,1 @@
+201206031220   0     0     003148647 I:\on_key_2010\YifatKishon1\rast2_kish1 = SELECTMASK(I:\on_key_2010\YifatKishon1\yif_kish_idw, C:\Documents and Settings\03148647\Local Settings\Temp\t_t_t2)

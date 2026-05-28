@@ -1,0 +1,737 @@
+Directory,Filename,RapidEye_Grid_ID,Acquisition_Date,Field_Name
+data/raw_chips,3654024_2011-05-03_RE3_3A_Analytic_SR_clip.tif,3654024,2011-05-03,Boundary_Fields_Addition_2010-12 — Maale_gilboa_makruz_2011
+data/raw_chips,3654024_2011-05-03_RE3_3A_Analytic_SR_clip.tif,3654024,2011-05-03,Boundary_Fields_Addition_2010-12 — Mesilot_mafrek_E_2011
+data/raw_chips,3654024_2011-05-03_RE3_3A_Analytic_SR_clip.tif,3654024,2011-05-03,Boundary_Fields_Addition_2010-12 — Mesilot_um_savisa_2011
+data/raw_chips,3654024_2011-05-03_RE3_3A_Analytic_SR_clip.tif,3654024,2011-05-03,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_hamra_vav
+data/raw_chips,3654024_2011-05-03_RE3_3A_Analytic_SR_clip.tif,3654024,2011-05-03,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_shokef_alef
+data/raw_chips,3654024_2011-05-03_RE3_3A_Analytic_SR_clip.tif,3654024,2011-05-03,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_kemach_E
+data/raw_chips,3654024_2011-05-03_RE3_3A_Analytic_SR_clip.tif,3654024,2011-05-03,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_Kemach_W_2012
+data/raw_chips,3654024_2011-05-03_RE3_3A_Analytic_SR_clip.tif,3654024,2011-05-03,Boundary_Fields_Baseline_2011 — Eden_gimel
+data/raw_chips,3654024_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-10,Boundary_Fields_Addition_2010-12 — Maale_gilboa_makruz_2011
+data/raw_chips,3654024_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-10,Boundary_Fields_Addition_2010-12 — Mesilot_mafrek_E_2011
+data/raw_chips,3654024_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-10,Boundary_Fields_Addition_2010-12 — Mesilot_um_savisa_2011
+data/raw_chips,3654024_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-10,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_hamra_vav
+data/raw_chips,3654024_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-10,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_shokef_alef
+data/raw_chips,3654024_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-10,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_kemach_E
+data/raw_chips,3654024_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-10,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_Kemach_W_2012
+data/raw_chips,3654024_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-10,Boundary_Fields_Baseline_2011 — Eden_gimel
+data/raw_chips,3654024_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654024,2011-05-16,Boundary_Fields_Addition_2010-12 — Mesilot_mafrek_E_2011
+data/raw_chips,3654024_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654024,2011-05-16,Boundary_Fields_Addition_2010-12 — Mesilot_um_savisa_2011
+data/raw_chips,3654024_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654024,2011-05-16,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_Kemach_W_2012
+data/raw_chips,3654024_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654024,2011-05-16,Boundary_Fields_Baseline_2011 — Eden_gimel
+data/raw_chips,3654024_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654024,2011-05-19,Boundary_Fields_Addition_2010-12 — Maale_gilboa_makruz_2011
+data/raw_chips,3654024_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654024,2011-05-19,Boundary_Fields_Addition_2010-12 — Mesilot_mafrek_E_2011
+data/raw_chips,3654024_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654024,2011-05-19,Boundary_Fields_Addition_2010-12 — Mesilot_um_savisa_2011
+data/raw_chips,3654024_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654024,2011-05-19,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_hamra_vav
+data/raw_chips,3654024_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654024,2011-05-19,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_shokef_alef
+data/raw_chips,3654024_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654024,2011-05-19,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_kemach_E
+data/raw_chips,3654024_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654024,2011-05-19,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_Kemach_W_2012
+data/raw_chips,3654024_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654024,2011-05-19,Boundary_Fields_Baseline_2011 — Eden_gimel
+data/raw_chips,3654024_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-29,Boundary_Fields_Addition_2010-12 — Maale_gilboa_makruz_2011
+data/raw_chips,3654024_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-29,Boundary_Fields_Addition_2010-12 — Mesilot_mafrek_E_2011
+data/raw_chips,3654024_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-29,Boundary_Fields_Addition_2010-12 — Mesilot_um_savisa_2011
+data/raw_chips,3654024_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-29,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_hamra_vav
+data/raw_chips,3654024_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-29,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_shokef_alef
+data/raw_chips,3654024_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-29,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_kemach_E
+data/raw_chips,3654024_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-29,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_Kemach_W_2012
+data/raw_chips,3654024_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654024,2011-05-29,Boundary_Fields_Baseline_2011 — Eden_gimel
+data/raw_chips,3654024_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654024,2011-06-06,Boundary_Fields_Addition_2010-12 — Maale_gilboa_makruz_2011
+data/raw_chips,3654024_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654024,2011-06-06,Boundary_Fields_Addition_2010-12 — Mesilot_mafrek_E_2011
+data/raw_chips,3654024_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654024,2011-06-06,Boundary_Fields_Addition_2010-12 — Mesilot_um_savisa_2011
+data/raw_chips,3654024_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654024,2011-06-06,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_hamra_vav
+data/raw_chips,3654024_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654024,2011-06-06,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_2011_shokef_alef
+data/raw_chips,3654024_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654024,2011-06-06,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_kemach_E
+data/raw_chips,3654024_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654024,2011-06-06,Boundary_Fields_Addition_2010-12 — Sde_Eliyahu_Kemach_W_2012
+data/raw_chips,3654024_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654024,2011-06-06,Boundary_Fields_Baseline_2011 — Eden_gimel
+data/raw_chips,3654123_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654123,2011-05-10,Boundary_Fields_Addition_2010-12 — Kfar_horash_2011
+data/raw_chips,3654123_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654123,2011-05-10,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654123_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654123,2011-05-16,Boundary_Fields_Addition_2010-12 — Kfar_horash_2011
+data/raw_chips,3654123_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654123,2011-05-16,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654123_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654123,2011-05-29,Boundary_Fields_Addition_2010-12 — Kfar_horash_2011
+data/raw_chips,3654123_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654123,2011-06-06,Boundary_Fields_Addition_2010-12 — Kfar_horash_2011
+data/raw_chips,3654123_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654123,2011-06-06,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654123_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654123,2011-06-24,Boundary_Fields_Addition_2010-12 — Kfar_horash_2011
+data/raw_chips,3654123_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654123,2011-06-24,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654124_2010-04-07_RE3_3A_Analytic_SR_clip.tif,3654124,2010-04-07,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2010-04-07_RE3_3A_Analytic_SR_clip.tif,3654124,2010-04-07,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2010-04-07_RE3_3A_Analytic_SR_clip.tif,3654124,2010-04-07,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2010-04-07_RE3_3A_Analytic_SR_clip.tif,3654124,2010-04-07,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2010-04-12_RE3_3A_Analytic_SR_clip.tif,3654124,2010-04-12,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2010-04-12_RE3_3A_Analytic_SR_clip.tif,3654124,2010-04-12,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2010-04-12_RE3_3A_Analytic_SR_clip.tif,3654124,2010-04-12,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2010-04-12_RE3_3A_Analytic_SR_clip.tif,3654124,2010-04-12,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2010-04-16_RE2_3A_Analytic_SR_clip.tif,3654124,2010-04-16,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2010-04-16_RE2_3A_Analytic_SR_clip.tif,3654124,2010-04-16,Boundary_Fields_Addition_2010-12 — Geva_13_2012
+data/raw_chips,3654124_2010-04-16_RE2_3A_Analytic_SR_clip.tif,3654124,2010-04-16,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2010-04-16_RE2_3A_Analytic_SR_clip.tif,3654124,2010-04-16,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2010-04-16_RE2_3A_Analytic_SR_clip.tif,3654124,2010-04-16,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2010-04-16_RE2_3A_Analytic_SR_clip.tif,3654124,2010-04-16,fields_2010 — Geva
+data/raw_chips,3654124_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-10,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-10,Boundary_Fields_Addition_2010-12 — Geva_13_2012
+data/raw_chips,3654124_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-10,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-10,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-10,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2011-05-10_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-10,fields_2010 — Geva
+data/raw_chips,3654124_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654124,2011-05-16,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654124,2011-05-16,Boundary_Fields_Addition_2010-12 — Geva_13_2012
+data/raw_chips,3654124_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654124,2011-05-16,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654124,2011-05-16,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654124,2011-05-16,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2011-05-16_RE1_3A_Analytic_SR_clip.tif,3654124,2011-05-16,fields_2010 — Geva
+data/raw_chips,3654124_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-29,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-29,Boundary_Fields_Addition_2010-12 — Geva_13_2012
+data/raw_chips,3654124_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-29,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-29,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-29,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2011-05-29_RE5_3A_Analytic_SR_clip.tif,3654124,2011-05-29,fields_2010 — Geva
+data/raw_chips,3654124_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654124,2011-06-06,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654124,2011-06-06,Boundary_Fields_Addition_2010-12 — Geva_13_2012
+data/raw_chips,3654124_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654124,2011-06-06,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654124,2011-06-06,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654124,2011-06-06,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654124,2011-06-06,fields_2010 — Geva
+data/raw_chips,3654124_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654124,2011-06-24,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654124,2011-06-24,Boundary_Fields_Addition_2010-12 — Geva_13_2012
+data/raw_chips,3654124_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654124,2011-06-24,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654124,2011-06-24,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654124,2011-06-24,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654124,2011-06-24,fields_2010 — Geva
+data/raw_chips,3654124_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654124,2012-05-12,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654124,2012-05-12,Boundary_Fields_Addition_2010-12 — Geva_13_2012
+data/raw_chips,3654124_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654124,2012-05-12,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654124,2012-05-12,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654124,2012-05-12,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654124,2012-05-12,fields_2010 — Geva
+data/raw_chips,3654124_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654124,2012-06-16,Boundary_Fields_Addition_2010-12 — EHI_tet_2012
+data/raw_chips,3654124_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654124,2012-06-16,Boundary_Fields_Addition_2010-12 — Geva_13_2012
+data/raw_chips,3654124_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654124,2012-06-16,Boundary_Fields_Baseline_2011 — EHI_ablek_south
+data/raw_chips,3654124_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654124,2012-06-16,fields_2010 — EHI_emek_d_points
+data/raw_chips,3654124_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654124,2012-06-16,fields_2010 — EHI_hey_points
+data/raw_chips,3654124_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654124,2012-06-16,fields_2010 — Geva
+data/raw_chips,3654223_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654223,2011-05-19,Boundary_Fields_Addition_2010-12 — Yaen_31_2012
+data/raw_chips,3654223_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654223,2011-05-19,Boundary_Fields_Baseline_2011 — Reem_bialik_west
+data/raw_chips,3654223_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654223,2011-05-19,Boundary_Fields_Baseline_2011 — Reem_damon_5
+data/raw_chips,3654223_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654223,2011-05-19,Boundary_Fields_Baseline_2011 — Yaen_kavnoa
+data/raw_chips,3654223_2011-05-19_RE4_3A_Analytic_SR_clip.tif,3654223,2011-05-19,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654223_2011-05-27_RE3_3A_Analytic_SR_clip.tif,3654223,2011-05-27,Boundary_Fields_Addition_2010-12 — Yaen_31_2012
+data/raw_chips,3654223_2011-05-27_RE3_3A_Analytic_SR_clip.tif,3654223,2011-05-27,Boundary_Fields_Baseline_2011 — Reem_bialik_west
+data/raw_chips,3654223_2011-05-27_RE3_3A_Analytic_SR_clip.tif,3654223,2011-05-27,Boundary_Fields_Baseline_2011 — Reem_damon_5
+data/raw_chips,3654223_2011-05-27_RE3_3A_Analytic_SR_clip.tif,3654223,2011-05-27,Boundary_Fields_Baseline_2011 — Yaen_kavnoa
+data/raw_chips,3654223_2011-05-27_RE3_3A_Analytic_SR_clip.tif,3654223,2011-05-27,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654223_2011-05-31_RE2_3A_Analytic_SR_clip.tif,3654223,2011-05-31,Boundary_Fields_Addition_2010-12 — Yaen_31_2012
+data/raw_chips,3654223_2011-05-31_RE2_3A_Analytic_SR_clip.tif,3654223,2011-05-31,Boundary_Fields_Baseline_2011 — Reem_bialik_west
+data/raw_chips,3654223_2011-05-31_RE2_3A_Analytic_SR_clip.tif,3654223,2011-05-31,Boundary_Fields_Baseline_2011 — Reem_damon_5
+data/raw_chips,3654223_2011-05-31_RE2_3A_Analytic_SR_clip.tif,3654223,2011-05-31,Boundary_Fields_Baseline_2011 — Yaen_kavnoa
+data/raw_chips,3654223_2011-05-31_RE2_3A_Analytic_SR_clip.tif,3654223,2011-05-31,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654223_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654223,2011-06-06,Boundary_Fields_Addition_2010-12 — Yaen_31_2012
+data/raw_chips,3654223_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654223,2011-06-06,Boundary_Fields_Baseline_2011 — Reem_bialik_west
+data/raw_chips,3654223_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654223,2011-06-06,Boundary_Fields_Baseline_2011 — Reem_damon_5
+data/raw_chips,3654223_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654223,2011-06-06,Boundary_Fields_Baseline_2011 — Yaen_kavnoa
+data/raw_chips,3654223_2011-06-06_RE3_3A_Analytic_SR_clip.tif,3654223,2011-06-06,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654223_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654223,2011-06-24,Boundary_Fields_Addition_2010-12 — Yaen_31_2012
+data/raw_chips,3654223_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654223,2011-06-24,Boundary_Fields_Baseline_2011 — Reem_bialik_west
+data/raw_chips,3654223_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654223,2011-06-24,Boundary_Fields_Baseline_2011 — Reem_damon_5
+data/raw_chips,3654223_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654223,2011-06-24,Boundary_Fields_Baseline_2011 — Yaen_kavnoa
+data/raw_chips,3654223_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654223,2011-06-24,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654223_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654223,2011-07-15,Boundary_Fields_Addition_2010-12 — Yaen_31_2012
+data/raw_chips,3654223_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654223,2011-07-15,Boundary_Fields_Baseline_2011 — Reem_bialik_west
+data/raw_chips,3654223_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654223,2011-07-15,Boundary_Fields_Baseline_2011 — Reem_damon_5
+data/raw_chips,3654223_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654223,2011-07-15,Boundary_Fields_Baseline_2011 — Yaen_kavnoa
+data/raw_chips,3654223_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654223,2011-07-15,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654223_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654223,2012-05-12,Boundary_Fields_Addition_2010-12 — Yaen_31_2012
+data/raw_chips,3654223_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654223,2012-05-12,Boundary_Fields_Baseline_2011 — Reem_bialik_west
+data/raw_chips,3654223_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654223,2012-05-12,Boundary_Fields_Baseline_2011 — Reem_damon_5
+data/raw_chips,3654223_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654223,2012-05-12,Boundary_Fields_Baseline_2011 — Yaen_kavnoa
+data/raw_chips,3654223_2012-05-12_RE1_3A_Analytic_SR_clip.tif,3654223,2012-05-12,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654223_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654223,2012-06-16,Boundary_Fields_Addition_2010-12 — Yaen_31_2012
+data/raw_chips,3654223_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654223,2012-06-16,Boundary_Fields_Baseline_2011 — Reem_bialik_west
+data/raw_chips,3654223_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654223,2012-06-16,Boundary_Fields_Baseline_2011 — Reem_damon_5
+data/raw_chips,3654223_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654223,2012-06-16,Boundary_Fields_Baseline_2011 — Yaen_kavnoa
+data/raw_chips,3654223_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654223,2012-06-16,Boundary_Fields_Baseline_2011 — Yagur_buki
+data/raw_chips,3654425_2011-06-17_RE5_3A_Analytic_SR_clip.tif,3654425,2011-06-17,Boundary_Fields_Addition_2010-12 — Havat_Gadash_2_2012
+data/raw_chips,3654425_2011-06-17_RE5_3A_Analytic_SR_clip.tif,3654425,2011-06-17,Boundary_Fields_Addition_2010-12 — Kfar_blum_b_2011
+data/raw_chips,3654425_2011-06-17_RE5_3A_Analytic_SR_clip.tif,3654425,2011-06-17,Boundary_Fields_Addition_2010-12 — Kfar_blum_rekiak_E_2012
+data/raw_chips,3654425_2011-06-17_RE5_3A_Analytic_SR_clip.tif,3654425,2011-06-17,Boundary_Fields_Baseline_2011 — HavatGadash_30
+data/raw_chips,3654425_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654425,2011-06-24,Boundary_Fields_Addition_2010-12 — Havat_Gadash_2_2012
+data/raw_chips,3654425_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654425,2011-06-24,Boundary_Fields_Addition_2010-12 — Kfar_blum_b_2011
+data/raw_chips,3654425_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654425,2011-06-24,Boundary_Fields_Addition_2010-12 — Kfar_blum_rekiak_E_2012
+data/raw_chips,3654425_2011-06-24_RE2_3A_Analytic_SR_clip.tif,3654425,2011-06-24,Boundary_Fields_Baseline_2011 — HavatGadash_30
+data/raw_chips,3654425_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654425,2011-07-15,Boundary_Fields_Addition_2010-12 — Havat_Gadash_2_2012
+data/raw_chips,3654425_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654425,2011-07-15,Boundary_Fields_Addition_2010-12 — Kfar_blum_b_2011
+data/raw_chips,3654425_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654425,2011-07-15,Boundary_Fields_Addition_2010-12 — Kfar_blum_rekiak_E_2012
+data/raw_chips,3654425_2011-07-15_RE4_3A_Analytic_SR_clip.tif,3654425,2011-07-15,Boundary_Fields_Baseline_2011 — HavatGadash_30
+data/raw_chips,3654425_2011-07-25_RE5_3A_Analytic_SR_clip.tif,3654425,2011-07-25,Boundary_Fields_Addition_2010-12 — Havat_Gadash_2_2012
+data/raw_chips,3654425_2011-07-25_RE5_3A_Analytic_SR_clip.tif,3654425,2011-07-25,Boundary_Fields_Addition_2010-12 — Kfar_blum_b_2011
+data/raw_chips,3654425_2011-07-25_RE5_3A_Analytic_SR_clip.tif,3654425,2011-07-25,Boundary_Fields_Addition_2010-12 — Kfar_blum_rekiak_E_2012
+data/raw_chips,3654425_2011-07-25_RE5_3A_Analytic_SR_clip.tif,3654425,2011-07-25,Boundary_Fields_Baseline_2011 — HavatGadash_30
+data/raw_chips,3654425_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654425,2012-06-16,Boundary_Fields_Addition_2010-12 — Havat_Gadash_2_2012
+data/raw_chips,3654425_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654425,2012-06-16,Boundary_Fields_Addition_2010-12 — Kfar_blum_b_2011
+data/raw_chips,3654425_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654425,2012-06-16,Boundary_Fields_Addition_2010-12 — Kfar_blum_rekiak_E_2012
+data/raw_chips,3654425_2012-06-16_RE3_3A_Analytic_SR_clip.tif,3654425,2012-06-16,Boundary_Fields_Baseline_2011 — HavatGadash_30
+data/raw_chips,3654425_2012-06-20_RE2_3A_Analytic_SR_clip.tif,3654425,2012-06-20,Boundary_Fields_Addition_2010-12 — Havat_Gadash_2_2012
+data/raw_chips,3654425_2012-06-20_RE2_3A_Analytic_SR_clip.tif,3654425,2012-06-20,Boundary_Fields_Addition_2010-12 — Kfar_blum_b_2011
+data/raw_chips,3654425_2012-06-20_RE2_3A_Analytic_SR_clip.tif,3654425,2012-06-20,Boundary_Fields_Addition_2010-12 — Kfar_blum_rekiak_E_2012
+data/raw_chips,3654425_2012-06-20_RE2_3A_Analytic_SR_clip.tif,3654425,2012-06-20,Boundary_Fields_Baseline_2011 — HavatGadash_30
+data/raw_chips,3654425_2012-07-25_RE4_3A_Analytic_SR_clip.tif,3654425,2012-07-25,Boundary_Fields_Addition_2010-12 — Havat_Gadash_2_2012
+data/raw_chips,3654425_2012-07-25_RE4_3A_Analytic_SR_clip.tif,3654425,2012-07-25,Boundary_Fields_Addition_2010-12 — Kfar_blum_b_2011
+data/raw_chips,3654425_2012-07-25_RE4_3A_Analytic_SR_clip.tif,3654425,2012-07-25,Boundary_Fields_Addition_2010-12 — Kfar_blum_rekiak_E_2012
+data/raw_chips,3654425_2012-07-25_RE4_3A_Analytic_SR_clip.tif,3654425,2012-07-25,Boundary_Fields_Baseline_2011 — HavatGadash_30
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,fields_2010 — HavatGadash
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,gonen_maagar_220725
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,manara_160725
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,rimonim_100725
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,Sasa_7_3.8.25
+data/raw_chips_2025,20250331_083658_75_250e_3B_AnalyticMS_SR_8b_clip.tif,2025033,20250331,Shamir_har_100725
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,fields_2010 — HavatGadash
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,gonen_maagar_220725
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,manara_160725
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,rimonim_100725
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,Sasa_7_3.8.25
+data/raw_chips_2025,20250404_083939_52_24f8_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250404,Shamir_har_100725
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,fields_2010 — HavatGadash
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,gonen_maagar_220725
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,rimonim_100725
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,Sasa_7_3.8.25
+data/raw_chips_2025,20250409_083813_52_24fa_3B_AnalyticMS_SR_8b_clip.tif,2025040,20250409,Shamir_har_100725
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,fields_2010 — HavatGadash
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,gonen_maagar_220725
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,rimonim_100725
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,Sasa_7_3.8.25
+data/raw_chips_2025,20250413_080300_26_2417_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250413,Shamir_har_100725
+data/raw_chips_2025,20250416_084228_85_24f5_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250416,fields_2010 — HavatGadash
+data/raw_chips_2025,20250416_084228_85_24f5_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250416,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250416_084228_85_24f5_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250416,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250416_084228_85_24f5_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250416,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250416_084228_85_24f5_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250416,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250416_084228_85_24f5_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250416,rimonim_100725
+data/raw_chips_2025,20250416_084228_85_24f5_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250416,Shamir_har_100725
+data/raw_chips_2025,20250418_084810_97_252e_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250418,fields_2010 — HavatGadash
+data/raw_chips_2025,20250418_084810_97_252e_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250418,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250418_084810_97_252e_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250418,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250418_084810_97_252e_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250418,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250418_084810_97_252e_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250418,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250418_084810_97_252e_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250418,rimonim_100725
+data/raw_chips_2025,20250418_084810_97_252e_3B_AnalyticMS_SR_8b_clip.tif,2025041,20250418,Shamir_har_100725
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,fields_2010 — HavatGadash
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,gonen_maagar_220725
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,rimonim_100725
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,Sasa_7_3.8.25
+data/raw_chips_2025,20250421_083927_78_24e5_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250421,Shamir_har_100725
+data/raw_chips_2025,20250422_084940_59_2532_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250422,fields_2010 — HavatGadash
+data/raw_chips_2025,20250422_084940_59_2532_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250422,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250422_084940_59_2532_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250422,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250422_084940_59_2532_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250422,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250422_084940_59_2532_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250422,Shamir_har_100725
+data/raw_chips_2025,20250426_084701_33_2534_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250426,fields_2010 — HavatGadash
+data/raw_chips_2025,20250426_084701_33_2534_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250426,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250426_084701_33_2534_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250426,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250426_084701_33_2534_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250426,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250426_084701_33_2534_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250426,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250426_084701_33_2534_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250426,rimonim_100725
+data/raw_chips_2025,20250426_084701_33_2534_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250426,Shamir_har_100725
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,fields_2010 — HavatGadash
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,gonen_maagar_220725
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,manara_160725
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,rimonim_100725
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,Sasa_7_3.8.25
+data/raw_chips_2025,20250427_084121_21_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025042,20250427,Shamir_har_100725
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,fields_2010 — HavatGadash
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,gonen_maagar_220725
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,manara_160725
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,rimonim_100725
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,Sasa_7_3.8.25
+data/raw_chips_2025,20250501_083711_69_251f_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250501,Shamir_har_100725
+data/raw_chips_2025,20250502_083828_51_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250502,fields_2010 — HavatGadash
+data/raw_chips_2025,20250502_083828_51_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250502,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250502_083828_51_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250502,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250502_083828_51_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250502,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250502_083828_51_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250502,Shamir_har_100725
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,fields_2010 — HavatGadash
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,gonen_maagar_220725
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,rimonim_100725
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,Sasa_7_3.8.25
+data/raw_chips_2025,20250506_083830_96_24da_3B_AnalyticMS_SR_8b_clip.tif,2025050,20250506,Shamir_har_100725
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,fields_2010 — HavatGadash
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,gonen_maagar_220725
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,rimonim_100725
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,Sasa_7_3.8.25
+data/raw_chips_2025,20250513_081557_47_24ca_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250513,Shamir_har_100725
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,fields_2010 — HavatGadash
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,gonen_maagar_220725
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,manara_160725
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,rimonim_100725
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,Sasa_7_3.8.25
+data/raw_chips_2025,20250515_083954_11_2506_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250515,Shamir_har_100725
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,fields_2010 — HavatGadash
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,gonen_maagar_220725
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,manara_160725
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,rimonim_100725
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,Sasa_7_3.8.25
+data/raw_chips_2025,20250518_084853_31_252d_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250518,Shamir_har_100725
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,fields_2010 — HavatGadash
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,gonen_maagar_220725
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,manara_160725
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,rimonim_100725
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,Sasa_7_3.8.25
+data/raw_chips_2025,20250519_084809_71_252e_3B_AnalyticMS_SR_8b_clip.tif,2025051,20250519,Shamir_har_100725
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,fields_2010 — HavatGadash
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,gonen_maagar_220725
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,manara_160725
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,rimonim_100725
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,Sasa_7_3.8.25
+data/raw_chips_2025,20250521_084048_09_24bd_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250521,Shamir_har_100725
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,fields_2010 — HavatGadash
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,gonen_maagar_220725
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,rimonim_100725
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,Sasa_7_3.8.25
+data/raw_chips_2025,20250523_084804_36_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250523,Shamir_har_100725
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,fields_2010 — HavatGadash
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,gonen_maagar_220725
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,manara_160725
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,rimonim_100725
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,Sasa_7_3.8.25
+data/raw_chips_2025,20250524_084941_60_252e_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250524,Shamir_har_100725
+data/raw_chips_2025,20250526_083655_82_2515_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250526,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250526_083655_82_2515_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250526,gonen_maagar_220725
+data/raw_chips_2025,20250526_083655_82_2515_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250526,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250526_083655_82_2515_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250526,manara_160725
+data/raw_chips_2025,20250526_083655_82_2515_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250526,rimonim_100725
+data/raw_chips_2025,20250526_083655_82_2515_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250526,Sasa_7_3.8.25
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,fields_2010 — HavatGadash
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,gonen_maagar_220725
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,rimonim_100725
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,Sasa_7_3.8.25
+data/raw_chips_2025,20250527_083822_79_2512_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250527,Shamir_har_100725
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,fields_2010 — HavatGadash
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,gonen_maagar_220725
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,manara_160725
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,rimonim_100725
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,Sasa_7_3.8.25
+data/raw_chips_2025,20250528_084841_82_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250528,Shamir_har_100725
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,fields_2010 — HavatGadash
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,gonen_maagar_220725
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,manara_160725
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,rimonim_100725
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,Sasa_7_3.8.25
+data/raw_chips_2025,20250529_084127_37_2521_3B_AnalyticMS_SR_8b_clip.tif,2025052,20250529,Shamir_har_100725
+data/raw_chips_2025,20250530_085020_65_2533_3B_AnalyticMS_SR_8b_clip.tif,2025053,20250530,manara_160725
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,fields_2010 — HavatGadash
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,gonen_maagar_220725
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,rimonim_100725
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,Sasa_7_3.8.25
+data/raw_chips_2025,20250601_084735_71_24c6_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250601,Shamir_har_100725
+data/raw_chips_2025,20250602_084853_62_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,fields_2010 — HavatGadash
+data/raw_chips_2025,20250602_084853_62_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250602_084853_62_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250602_084853_62_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,fields_2010 — HavatGadash
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,gonen_maagar_220725
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,manara_160725
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,rimonim_100725
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Sasa_7_3.8.25
+data/raw_chips_2025,20250602_084855_95_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250602,Shamir_har_100725
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,fields_2010 — HavatGadash
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,gonen_maagar_220725
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,manara_160725
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,rimonim_100725
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,Sasa_7_3.8.25
+data/raw_chips_2025,20250604_084844_94_252b_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250604,Shamir_har_100725
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,fields_2010 — HavatGadash
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,gonen_maagar_220725
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,manara_160725
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,rimonim_100725
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,Sasa_7_3.8.25
+data/raw_chips_2025,20250605_085038_43_2540_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250605,Shamir_har_100725
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,fields_2010 — HavatGadash
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,gonen_maagar_220725
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,manara_160725
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,rimonim_100725
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,Sasa_7_3.8.25
+data/raw_chips_2025,20250607_084637_47_24ed_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250607,Shamir_har_100725
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,fields_2010 — HavatGadash
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,gonen_maagar_220725
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,manara_160725
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,rimonim_100725
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,Sasa_7_3.8.25
+data/raw_chips_2025,20250608_084107_94_250d_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250608,Shamir_har_100725
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,fields_2010 — HavatGadash
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,gonen_maagar_220725
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,manara_160725
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,rimonim_100725
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,Sasa_7_3.8.25
+data/raw_chips_2025,20250609_084834_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025060,20250609,Shamir_har_100725
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,fields_2010 — HavatGadash
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,gonen_maagar_220725
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,manara_160725
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,rimonim_100725
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,Sasa_7_3.8.25
+data/raw_chips_2025,20250610_084224_65_250e_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250610,Shamir_har_100725
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,fields_2010 — HavatGadash
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,gonen_maagar_220725
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,rimonim_100725
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Sasa_7_3.8.25
+data/raw_chips_2025,20250612_084041_94_2514_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Shamir_har_100725
+data/raw_chips_2025,20250612_084147_35_24db_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,fields_2010 — HavatGadash
+data/raw_chips_2025,20250612_084147_35_24db_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,manara_160725
+data/raw_chips_2025,20250612_084147_35_24db_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250612_084147_35_24db_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250612_084147_35_24db_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250612,Sasa_7_3.8.25
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,fields_2010 — HavatGadash
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,gonen_maagar_220725
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,manara_160725
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,rimonim_100725
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,Sasa_7_3.8.25
+data/raw_chips_2025,20250614_084926_62_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250614,Shamir_har_100725
+data/raw_chips_2025,20250615_084444_41_24ae_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250615,hazorea_100825
+data/raw_chips_2025,20250617_083807_38_2409_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250617_083807_38_2409_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,gonen_maagar_220725
+data/raw_chips_2025,20250617_083807_38_2409_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250617_083807_38_2409_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250617_083807_38_2409_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,rimonim_100725
+data/raw_chips_2025,20250617_083807_38_2409_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Shamir_har_100725
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,fields_2010 — HavatGadash
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,gonen_maagar_220725
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,manara_160725
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,rimonim_100725
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Sasa_7_3.8.25
+data/raw_chips_2025,20250617_084915_53_252d_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250617,Shamir_har_100725
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,fields_2010 — HavatGadash
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,gonen_maagar_220725
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,manara_160725
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,rimonim_100725
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,Sasa_7_3.8.25
+data/raw_chips_2025,20250619_084012_92_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,Shamir_har_100725
+data/raw_chips_2025,20250619_085006_19_254a_3B_AnalyticMS_SR_8b_clip.tif,2025061,20250619,hazorea_100825
+data/raw_chips_2025,20250621_084852_99_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,fields_2010 — HavatGadash
+data/raw_chips_2025,20250621_084852_99_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250621_084852_99_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250621_084852_99_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250621_084852_99_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Shamir_har_100725
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,fields_2010 — HavatGadash
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,gonen_maagar_220725
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,manara_160725
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,rimonim_100725
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Sasa_7_3.8.25
+data/raw_chips_2025,20250621_084855_15_24df_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250621,Shamir_har_100725
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,fields_2010 — HavatGadash
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,gonen_maagar_220725
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,manara_160725
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,rimonim_100725
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,Sasa_7_3.8.25
+data/raw_chips_2025,20250622_084231_44_24da_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250622,Shamir_har_100725
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,fields_2010 — HavatGadash
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,gonen_maagar_220725
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,manara_160725
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,rimonim_100725
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,Sasa_7_3.8.25
+data/raw_chips_2025,20250623_084218_74_2500_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,Shamir_har_100725
+data/raw_chips_2025,20250623_085006_66_2531_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250623,hazorea_100825
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,fields_2010 — HavatGadash
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,gonen_maagar_220725
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,manara_160725
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,rimonim_100725
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,Sasa_7_3.8.25
+data/raw_chips_2025,20250625_084937_31_2533_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250625,Shamir_har_100725
+data/raw_chips_2025,20250628_084433_23_250e_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250628,hazorea_100825
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,fields_2010 — HavatGadash
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,gonen_maagar_220725
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,rimonim_100725
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,Sasa_7_3.8.25
+data/raw_chips_2025,20250629_084815_19_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,Shamir_har_100725
+data/raw_chips_2025,20250629_084817_54_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250629_084817_54_2541_3B_AnalyticMS_SR_8b_clip.tif,2025062,20250629,manara_160725
+data/raw_chips_2025,20250630_084032_49_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250630_084032_49_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250630_084032_49_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,rimonim_100725
+data/raw_chips_2025,20250630_084032_49_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,Shamir_har_100725
+data/raw_chips_2025,20250630_084034_72_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250630_084034_72_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,gonen_maagar_220725
+data/raw_chips_2025,20250630_084034_72_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250630_084034_72_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,rimonim_100725
+data/raw_chips_2025,20250630_084034_72_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,Sasa_7_3.8.25
+data/raw_chips_2025,20250630_084034_72_2512_3B_AnalyticMS_SR_8b_clip.tif,2025063,20250630,Shamir_har_100725
+data/raw_chips_2025,20250703_084409_17_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,hazorea_100825
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,fields_2010 — HavatGadash
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,manara_160725
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,rimonim_100725
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,Sasa_7_3.8.25
+data/raw_chips_2025,20250703_084948_94_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250703,Shamir_har_100725
+data/raw_chips_2025,20250704_084943_51_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,fields_2010 — HavatGadash
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,gonen_maagar_220725
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,manara_160725
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,rimonim_100725
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,Sasa_7_3.8.25
+data/raw_chips_2025,20250704_084945_86_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250704,Shamir_har_100725
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,fields_2010 — HavatGadash
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,gonen_maagar_220725
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,manara_160725
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,rimonim_100725
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,Sasa_7_3.8.25
+data/raw_chips_2025,20250708_084835_46_252e_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250708,Shamir_har_100725
+data/raw_chips_2025,20250709_084942_69_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,fields_2010 — HavatGadash
+data/raw_chips_2025,20250709_084942_69_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250709_084942_69_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250709_084942_69_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250709_084942_69_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Shamir_har_100725
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,fields_2010 — HavatGadash
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,gonen_maagar_220725
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,manara_160725
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,rimonim_100725
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Sasa_7_3.8.25
+data/raw_chips_2025,20250709_084945_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,Shamir_har_100725
+data/raw_chips_2025,20250709_085102_70_2541_3B_AnalyticMS_SR_8b_clip.tif,2025070,20250709,hazorea_100825
+data/raw_chips_2025,20250714_084145_51_2523_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,hazorea_100825
+data/raw_chips_2025,20250714_084904_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,fields_2010 — HavatGadash
+data/raw_chips_2025,20250714_084904_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250714_084904_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250714_084904_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250714_084904_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250714_084904_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,rimonim_100725
+data/raw_chips_2025,20250714_084904_03_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Shamir_har_100725
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,fields_2010 — HavatGadash
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,gonen_maagar_220725
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,manara_160725
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,rimonim_100725
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Sasa_7_3.8.25
+data/raw_chips_2025,20250714_084906_37_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250714,Shamir_har_100725
+data/raw_chips_2025,20250718_084213_28_2511_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250718,hazorea_100825
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,fields_2010 — HavatGadash
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,gonen_maagar_220725
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,manara_160725
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,rimonim_100725
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,Sasa_7_3.8.25
+data/raw_chips_2025,20250719_084812_38_254a_3B_AnalyticMS_SR_8b_clip.tif,2025071,20250719,Shamir_har_100725
+data/raw_chips_2025,20250722_085021_26_2549_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250722,hazorea_100825
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,fields_2010 — HavatGadash
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,gonen_maagar_220725
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,manara_160725
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,rimonim_100725
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,Sasa_7_3.8.25
+data/raw_chips_2025,20250723_084953_87_2540_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250723,Shamir_har_100725
+data/raw_chips_2025,20250726_085132_54_24e9_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250726,hazorea_100825
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,Broomrape_Sampling_Gonen_2025-06-30
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,fields_2010 — HavatGadash
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,gonen_maagar_220725
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,rimonim_100725
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,Sasa_7_3.8.25
+data/raw_chips_2025,20250728_084439_17_2508_3B_AnalyticMS_SR_8b_clip.tif,2025072,20250728,Shamir_har_100725
+data/raw_chips_2025,20250731_084258_94_24f7_3B_AnalyticMS_SR_8b_clip.tif,2025073,20250731,hazorea_100825
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,fields_2010 — HavatGadash
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,gonen_maagar_220725
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,Havat_mataim_7.7.2025
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,Kfar_sald_shaked_east_240725
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,Monitor_GDD562_Broomrape_2025-05-25
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,Monitor_GDD714_Broomrape_2025-06-05
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,rimonim_100725
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,Sasa_7_3.8.25
+data/raw_chips_2025,20250801_085047_06_24dd_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250801,Shamir_har_100725
+data/raw_chips_2025,20250804_084456_50_2409_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250804,hazorea_100825
+data/raw_chips_2025,20250809_084723_07_251b_3B_AnalyticMS_SR_8b_clip.tif,2025080,20250809,hazorea_100825

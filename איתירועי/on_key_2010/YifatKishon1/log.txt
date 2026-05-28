@@ -1,0 +1,13 @@
+201103301506   0     0     0itayr Y:\2010\YifatKishon1\yifatkishon = IDW(yifat 420,  'Al
+201112281236   0     0     0itayr F:\on_key_2010\YifatKishon1\kish1_clip = SELECTBOX(F:\on_key_2010\YifatKishon1\Kish1_krig1,  21769
+201112281238   0     0     0itayr F:\on_key_2010\YifatKishon1\kish1_clip1 = SELECTMASK(F:\on_key_2010\YifatKishon1\Kish1_krig1, C:\Documents and Settings\itayr\Local Settings\Temp\t_t6410)
+201112281419   0     0     0itayr F:\on_key_2010\YifatKishon1\kish1_clip2 = SELECTMASK(F:\on_key_2010\YifatKishon1\Kish1_krig1, C:\Documents and Settings\itayr\Local Settings\Temp\t_t726)
+201112281444   0     0     0itayr F:\on_key_2010\YifatKishon1\kish1_3_clip = SELECTMASK(F:\on_key_2010\YifatKishon1\kish1_krig3, C:\Documents and Settings\itayr\Local Settings\Temp\t_t7211)
+201112281454   0     0     0itayr F:\on_key_2010\YifatKishon1\kish1_3clip = SELECTMASK(F:\on_key_2010\YifatKishon1\kish1_krig_3, C:\Documents and Settings\itayr\Local Settings\Temp\t_t7216)
+201112281503   0     0     0itayr F:\on_key_2010\YifatKishon1\kish1_70clip = SELECTMASK(F:\on_key_2010\YifatKishon1\kish1_krig70, C:\Documents and Settings\itayr\Local Settings\Temp\t_t7221)
+201112281526   0     0     0itayr F:\on_key_2010\YifatKishon1\kish1_70clip = SELECTMASK(F:\on_key_2010\YifatKishon1\kish1_krig70, C:\Documents and Settings\itayr\Local Settings\Temp\t_t7226)
+201206031218   0     0     003148647 I:\on_key_2010\YifatKishon1\yif_kish_idw = IDW(Yifat_Kish1,
+201206031220   0     0     003148647 I:\on_key_2010\YifatKishon1\rast2_kish1 = SELECTMASK(I:\on_key_2010\YifatKishon1\yif_kish_idw, C:\Documents and Settings\03148647\Local Settings\Temp\t_t_t2)
+201611212121   0     0     0yafitush D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\YifatKishon1\YkishIdw5m = IDW(Yifat_Kish1,  'AleketLevl', #, 2.0, SA
+201611212122   0     0     0yafitush D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\YifatKishon1\ykishidw5mss = SELECTMASK(D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\YifatKishon1\YkishIdw5m, C:\Users\yafitush\AppData\Local\Temp\arcC089\t_t565)
+201611212124   0     0     0yafitush D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\YifatKishon1\ykishidw5mss = SELECTMASK(D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\YifatKishon1\YkishIdw5m, C:\Users\yafitush\AppData\Local\Temp\arcC089\t_t566)

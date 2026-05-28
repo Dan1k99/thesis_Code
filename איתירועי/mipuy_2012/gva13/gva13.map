@@ -1,0 +1,2 @@
+COMPD_CS["WGS 84",GEOGCS["",DATUM["WGS 84",SPHEROID["WGS 84",6378137,298.257223563] ,TOWGS84[0, 0, 0, 0, 0, 0, 0]],PRIMEM["Greenwich",0],UNIT["Degrees",0.0174532925199433],AXIS["Long",East],AXIS["Lat",North]],VERT_CS["",VERT_DATUM["Ellipsoid",2002],UNIT["Meters",1],AXIS["Height",Up]]]
+gva13.shp
