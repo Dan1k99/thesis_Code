@@ -1,6 +1,0 @@
-201105271502   0     0     0itayr Z:\EDEN_2011\eden2011idw = IDW(EDEN_2011
-201105271513   1     0     0itayr Z:\EDEN_2011\eden2011idw2 = IDW(Eden_Out7,
-201105271525   1     0     0itayr Z:\EDEN_2011\bakya_idw = IDW(BAKYA2,  '
-201106051857   0     0     0itayr Z:\mipuy_2011\EDEN_2011\bakya_idw2 = IDW(BAKYA2,  'Alek
-201106051903   0     0     0itayr Z:\mipuy_2011\EDEN_2011\eden_out7 = IDW(Eden_Out7,  'Aleke
-201106051924   1     0     0itayr Z:\mipuy_2011\EDEN_2011\eden11new = IDW(Eden11new,  'Aleke

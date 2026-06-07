@@ -1,1 +1,0 @@
-201009071253   0     1     0itayr C:\DOCUME~1\itayr\LOCALS~1\Temp\idw6 = IDW(z:\em_veris\YIFATVEC\yifat_1_EC_0810.shp,  cm_50mscm, #, 2, SAMPLE, 12, 5, 2)

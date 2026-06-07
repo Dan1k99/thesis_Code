@@ -1,3 +1,0 @@
-201611212034   0     0     0yafitush D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\KfarHoresh37\KHor37IDW = IDW(2010\KfarHaHoresh37,  'AlketLvl', C:\Us
-201611212100   0     0     0yafitush D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\KfarHoresh37\khor37idw_ss = SELECTMASK(D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\KfarHoresh37\KHor37IDW, C:\Users\yafitush\AppData\Local\Temp\arc1DAE\t_t765)
-201611212102   0     0     0yafitush D:\Yafit_bb\volcani\Proposals\2010\madan\Aleket\on_key_2010\KfarHoresh37\khor37idw5m = IDW(2010\KfarHaHoresh37,  'AlketLvl', C:\
